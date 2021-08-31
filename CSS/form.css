@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    font-size: 62.5%;       /* vale 10px */
+}
+
+body {
+    background-color: white;
+}
+
+h1, h2, p, li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 89, 141);
+}
+
+a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+ul {
+    background-color: black;
+    font-size: 20px;
+}
+
+ul li {
+    font-size: 0.8em;
+    font-size: 1.6rem;      /* vale 16px */
+    width: 80%;
+    height: 3rem;           /* vale 30px */
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 2rem;
+    height: 3rem;
+}
+
+.navegacao {
+    background-color: #ffffff;
+}
+
+.navegacao a {
+    color: #393;
+}
+
+form {
+    color: #66f;
+    margin-bottom: .5rem;
+}
+
+form div {
+    background: #ccc;
+    border: 0;
+    border-bottom: 1px solid #33f;
+    margin: 1rem 2rem;
+    padding: 2rem;
+}
+
+label {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+input {
+    padding: 1rem;
+}
+
+[type="text"], [type="email"], textarea, label {
+    display: block;
+    width: 100%;
+}
+
+header {
+    background-color: #DDDDDD;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    background: #ccc;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+}
+
+section {
+    background: #ccc;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
