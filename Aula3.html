@@ -2,38 +2,58 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HTML Listas e Links</title>
+        <title>HTML Tabelas</title>
     </head>
     <body>
-        <h1>Formatação de texto</h1>
-        <h2>titulo 2</h2>
-        <h3>titulo 3</h3>
-        <h4>titulo 4</h4>
-        <h5>titulo 5</h5>
-        <h6>titulo 6</h6>
-        <p>
-           <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b> Cras sit amet mi porta, consequat nisl suscipit, 
-            <i>tristique diam. Mauris vel porttitor mauris, nec pellentesque dolor.</i> 
-            <del>ornare libero vel dui feugiat, vel consectetur velit venenatis. Proin id sapien lacinia,</del>  
-            tristique augue eget, egestas quam. Aenean eget purus ante. 
-            Curabitur id tristique risus, et sagittis ligula.<br> 
-            Aliquam sapien sapien, malesuada et augue eu, facilisis eleifend nulla. 
-            Vivamus a augue nec ex elementum commodo. Vivamus at egestas metus. 
-        </p>
-        
-        <p>
-            <strong>consequat nisi neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-            curae; Nulla sit amet nisi in quam porttitor venenatis. Nunc convallis eros ligula, ut lobortis erat 
-            convallis elementum. Nam sit amet dui augue.</strong>  <em>sodales orci at auctor tempus. Nullam blandit iaculis 
-            <sup>1</sup> Maecenas accumsan id sapien <sup>2</sup> bibendum. Nulla facilisi.</em> 
-        </p>
+        <h1>Tabelas</h1>
 
-        
-            <blockquote><sub>3</sub>Cras vel leo lorem. <sub>3</sub> dictum pretium elit vitae malesuada. Sed dapibus nisi sit amet nisi varius mattis. 
-            <small>bibendum accumsan dolor sed dictum. Duis hendrerit, ipsum sed cursus laoreet, est justo facilisis leo,</small>  
-            et eleifend magna ante et leo. Morbi ultrices placerat diam nec efficitur. Vestibulum quis odio velit. Nulla 
-            a risus vel arcu auctor lacinia id et ipsum.</blockquote>
-           
-        
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <th>Coluna 1</th>
+                    <th>Coluna 2</th>
+                    <th>Coluna 3</th>
+                </tr>
+            </thead>
+            <tbody >
+                <tr align="center">
+                    <td>1A</td>
+                    <td>1B</td>
+                    <td>1C</td>
+                </tr>
+                <tr align="right">
+                    <td>2A</td>
+                    <td>2B</td>
+                    <td>2C</td>
+                </tr>
+                <tr>
+                    <td>3A</td>
+                    <td colspan="2">3B</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Rodapé da tabela</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h2>Tabela como layout</h2>
+
+        <table width="600">
+            <tr height="90">
+                <td colspan="4" bgcolor="#BBCCEE" align="center">Cabeçalho</td>
+            </tr>
+            <tr height="300">
+                <td width="20"></td>
+                <td bgcolor="#DDDDDD">Coluna 1</td>
+                <td bgcolor="#EEEEEE">Coluna 2</td>
+                <td width="20" bgcolor="0000FF"></td>
+                <td width="20"></td>
+            </tr>
+            <tr>
+                <td colspan="3">Rodapé</td>
+            </tr>
+        </table>
     </body>
 </html>

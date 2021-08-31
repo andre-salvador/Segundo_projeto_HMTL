@@ -86,19 +86,64 @@
 
 			<article>
 
-				<h1>Título Artigo</h1>
+				<h1>Contato</h1>
+                <p>preencha os campos abaixo</p>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id nibh posuere, eleifend lacus quis, blandit mauris. Proin eu gravida justo. Donec a mi laoreet, malesuada est a, imperdiet leo. Fusce in mauris dapibus, cursus purus vitae, pulvinar ligula. Donec nec mi mollis, viverra purus et, faucibus ante. Fusce faucibus pretium eros, vitae condimentum orci dapibus eu. Morbi elit nibh, pulvinar ut laoreet sit amet, dignissim id lectus. Nunc ac felis posuere, interdum eros vitae, sodales eros. Aenean porta vehicula diam, sit amet venenatis ante eleifend in. Integer malesuada urna nunc, dapibus dapibus felis malesuada et. Ut id tempor dolor, ac imperdiet lorem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque risus quam, mollis in tellus quis, blandit venenatis nunc.</p>
+                <form method="post">
+                    <div>  
+                        <label for="nome">Nome</label><br>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                    </div>
 
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam sit amet ullamcorper odio. Etiam dignissim arcu vel porta dictum. Proin vel maximus justo, quis rutrum lectus. Nullam pellentesque id enim quis imperdiet. Aenean condimentum ultricies ex vitae auctor. Proin condimentum congue felis, nec aliquet erat tempus ut. Phasellus quis molestie nulla, tincidunt finibus tortor. Aliquam nulla erat, tristique at pharetra eget, vestibulum a diam. Maecenas aliquet porta elit et pretium. In sed ante nibh. Nulla facilisi. Curabitur finibus gravida lacus, eu vestibulum ex. Morbi nec suscipit felis.</p>
-				
+                    <div>
+                        <label for="email">E-mail</label><br>
+                        <input type="text" name="email" id="email" placeholder="Digite seu E-mail">
+                    </div>
+                    
+                    <div>
+                        <label for="mensagem">Mensagem</label><br>
+                        <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+                    </div>
+
+                    <div>
+                        <p>
+                            <label>Quais linguagens você sabe?</label>
+                            <input type="radio" name="linguagens" value="html"> HTML
+                            <input type="radio" name="linguagens" value="css"> CSS
+                            <input type="radio" name="linguagens" value="javascript"> JavaScript
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <label>Quais linguagens você sabe?</label>
+                            <input type="checkbox" name="linguagens" value="html"> HTML
+                            <input type="checkbox" name="linguagens" value="css"> CSS
+                            <input type="checkbox" name="linguagens" value="javascript"> JavaScript
+                        </p>
+                    </div>
+
+                    <div>
+                        <label>Qual é a sua cor favorita?</label>
+                        <select>
+                            <option value="azul" selected>Azul</option>
+                            <option value="verde">Verde</option>
+                            <option value="vermelho">Vermelho</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <input type="submit">
+                    </div>
+                </form>
+
 			</article>
 
 
 		</section>
 
 		<footer>
-			<p>Desenvolvido por Marcelo</p>
+			<p>Desenvolvido por André</p>
 		</footer>
 		
 
