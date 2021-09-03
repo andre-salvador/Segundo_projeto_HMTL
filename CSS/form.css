@@ -23,3 +23,30 @@ nav {
     text-align:center;
     color: white;
 }
+
+.entrada {
+    float: center;
+    padding-left: 40%;
+}
+
+label {
+    font-weight: bold;
+}
+
+form {
+    float: center;
+    padding-left: 40%;
+    padding-top: 1%;
+    padding-left: 40%;
+}
+
+input {
+    border-radius: 5px;
+    padding-top: 1%;
+    text-align: center;
+}
+
+textarea {
+    padding-top: 2%;
+    width: 50%;
+}

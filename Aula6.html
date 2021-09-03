@@ -24,41 +24,41 @@
 
 			<article>
 
-				<h1>Contato</h1>
-				<p>Preencha os campos abaixo</p>
+				<h1 class="entrada">Contato</h1>
+				<p class="entrada">Preencha os campos abaixo</p>
 
 				<form method="post">
 
 					<div>
-						<label for="nome">Nome</label><br>
-						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
-					</div>
+						<label for="nome">Nome</label> <br>
+						<input id="texto" type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div> <br>
 
 					<div>
-						<label for="email">E-mail</label><br>
-						<input type="email" name="email" id="email" placeholder="Digite seu email">
-					</div>
+						<label for="email">E-mail</label> <br>
+						<input id="texto" type="email" name="email" id="email" placeholder="Digite seu email">
+					</div> <br>
 
 					<div>
-						<label for="mensagem">Mensagem</label><br>
-						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+						<label for="mensagem">Mensagem</label> <br>
+						<textarea name="mensagem" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
 					</div>
 
 					<div>
 						<p>
-							<label>Qual linguagem você prefere?</label>
-							<input type="radio" name="linguagens" value="html"> HTML
-							<input type="radio" name="linguagens" value="css"> CSS
-							<input type="radio" name="linguagens" value="javascript"> JavaScript
+							<label>Qual linguagem você prefere?</label> <br><br>
+							<input id="escolha" type="radio" name="linguagens" value="html"> HTML <br>
+							<input id="escolha" type="radio" name="linguagens" value="css"> CSS <br>
+							<input id="escolha" type="radio" name="linguagens" value="javascript"> JavaScript
 						</p>
 					</div>
 
 					<div>
 						<p>
-							<label>Quais linguagens você sabe?</label>
-							<input type="checkbox" name="linguagens" value="html"> HTML
-							<input type="checkbox" name="linguagens" value="css"> CSS
-							<input type="checkbox" name="linguagens" value="javascript"> JavaScript
+							<label>Quais linguagens você sabe?</label> <br><br>
+							<input id="escolha" type="checkbox" name="linguagens" value="html"> HTML <br>
+							<input id="escolha" type="checkbox" name="linguagens" value="css"> CSS <br>
+							<input id="escolha" type="checkbox" name="linguagens" value="javascript"> JavaScript
 						</p>
 					</div>
 
@@ -69,7 +69,7 @@
 							<option value="Verde">Verde</option>
 							<option value="Vermelho" selected>Vermelho</option>
 						</select>
-					</div>
+					</div> <br><br>
 
 					<div>
 						<input type="submit" >
