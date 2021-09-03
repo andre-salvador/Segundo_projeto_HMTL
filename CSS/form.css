@@ -3,6 +3,7 @@
 }
 
 body {
+    display: block;
     font-family: sans-serif;
     font-size: 16px;
 }
@@ -47,6 +48,7 @@ input {
 }
 
 textarea {
-    padding-top: 2%;
+    padding-top: 0.1%;
     width: 50%;
+    border-radius: 5px;
 }
